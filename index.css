@@ -1,0 +1,228 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.header-list--1 {     /*THE FIRST UNORDERED LIST IN THE HEADER SECTION*/
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 66px;
+    background: black;
+}
+
+.header-list--1 #image {   /*THE HELPER DIV THAT CONTAINS THE REVZILLA IMAGE*/
+    width: 136px;
+    height: 64px;
+}
+
+#image {
+    position: absolute;
+    left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-list--1-div-1 { /*THE HELPER DIV TO STYLE THE HELMET AND SHOP BY VEHICLE*/
+    position: absolute;
+    left: 306px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fa4c06;
+    width: 220px;
+    height: 48px;
+    padding-left: 18px;
+    padding-right: 18px;
+    color: white;
+    font-weight: bold;
+    font-family: lato;
+}
+
+.header-list--1-div-1 .material-symbols-outlined-helmet {  /*STYLE THE HELMET SECTION*/
+    margin-right: 12px;
+}
+
+.header-list--1-div-1 p {   /*STYLE THE SHOP BY VEHICLE SECTION*/
+    font-size: 14px;
+}
+
+.header-list--1-div-2 {   /*THE HELPER DIV TO STYLE THE SEARCH ICON AND THE SEARCH BAR*/
+    position: absolute;
+    left: 525px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    margin-left: 20px;
+    height: 48px;
+}
+
+span.material-symbols-outlined-search {  /*STYLE THE SEARCH ICON*/
+    font-size: 35px;
+    font-weight: bold;
+    padding-left: 7px;
+}
+
+.header-list--1-div-2 input {  /*STYLE THE INPUT SEARCH*/
+    width: 414px;
+    border: none;
+}
+
+.header-list--1-div-2 input::placeholder {
+    padding-left: 10px;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 13.7px;
+    color: black;
+}
+
+.header-list--1-div-3 {     /*THE HLEPER DIV TO STYLE THE PROFILE AND CART ICONS!*/
+    position: absolute;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+span.material-symbols-outlined-profile {   /*STYLE THE PROFILE ICON*/
+    font-size: 30px;
+    color: white;
+}
+
+span.material-symbols-outlined-cart {    /*STYLE THE CART ICON*/
+    font-size: 30px;
+    margin-left: 30px;
+    margin-right: 15px;
+    color: white;
+}
+
+.header-list--2 {        /*The ul-2 element that contains the bottom navigation of the header*/
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-bottom: 2px solid #fa4c06;
+    background: white;
+}
+
+.header-list--2-item-menu {   /*STYLE THE MENU ICON HERE!!! - - - STYLE THE MENU ICON HERE!!! - - -*/
+    position: absolute;
+    left: 15px;
+    cursor: pointer;
+}
+
+.header-list--2-item a {    /* The anchor tags are embeded within the li element class .header-list--2-item*/
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    padding: 12px;
+}
+/*STYLE the list hover below*/
+.header-list--2-item a:hover {
+    background: #fa4c06;
+    transition: 0.2s;
+}
+
+.header-list--2-item a:not(:hover) {
+    transition: 0.2s;
+}
+
+.header-list--2-item--cta a {
+    color: #fa4c06;
+}
+
+.header-list--2-item--cta a:hover {
+    color: white;
+}
+
+#header-list--2-item-div-helper {   /*HELPS TO MOVE THE POSITION OF THE IMAGE AND ICON*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+}
+
+span.material-symbols-outlined-right-arrow {   /*STYLE THE ARROW ICON HERE!!! - - - STYLE THE ARROW ICON HERE!!! - - -*/
+    font-weight: bold;
+    font-size: 30px;
+}
+/* END OF THE HEADER!!! - - - END OF THE HEADER!!! - - - END OF THE HEADER!!! - - - END OF THE HEADER!!! - - -*/
+
+
+/* BEGINING OF MAIN!!! - - - BEGINING OF MAIN!!! - - - BEGINING OF MAIN!!! - - - BEGINING OF MAIN!!! - - -*/
+
+.main {        /*STYLE THE MAIN SECTION */
+    padding: 0 100px 0 100px;
+    position: relative;
+    top: 135px;
+}
+
+.div-images {   /*A HELPER DIV TO POSITION THE DIV IMAGES*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-image-1 {   /*A HELPER DIV TO STYLE THE SIZE OF THE FIRST DIV IMAGE*/
+    width: 532px;
+    height: 521px;
+}
+
+.div-image-1 img {  /* STYLE THE FIRST DIV IMAGE*/
+    width: 100%;
+    height: 100%;
+}
+
+.div-image-2 {  /*A HELPER DIV TO STYLE THE SIZE OF THE SECOND DIV IMAGE*/
+    width: 532px;
+    height: 521px;
+    margin-left: 23px;
+}
+
+.div-image-2 img {   /*STYLE THE SECOND DIV IMAGE*/
+    width: 100%;
+    height: 100%;
+}
+/* THE END OF THE DIV IMAGES!!! - - - THE END OF THE DIV IMAGES!!! - - - THE END OF THE DIV IMAGES!!! - - - */
+
+.dainese {
+    margin-top: 60px;
+}
+
+.dainese h2 {
+    text-align: center;
+    font-family: lato;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.dianese-collection {
+    display: grid;
+    grid-template-columns: repeat(6, 152px);
+}
