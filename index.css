@@ -38,6 +38,11 @@ body {
     justify-content: center;
 }
 
+#image img {
+    width: 100%;
+    height: 100%;
+}
+
 .header-list--1-div-1 { /*THE HELPER DIV TO STYLE THE HELMET AND SHOP BY VEHICLE*/
     position: absolute;
     left: 306px;
@@ -171,6 +176,31 @@ span.material-symbols-outlined-right-arrow {   /*STYLE THE ARROW ICON HERE!!! - 
     font-weight: bold;
     font-size: 30px;
 }
+
+.promotion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    background: #fa4c06;
+    height: 36px;
+}
+
+.promotion h1 {
+    margin: 0;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+span.promotion-span {
+    color: black;
+    background: white;
+    padding: 2px 5px 2px 5px;
+    border-radius: 5px;
+}
 /* END OF THE HEADER!!! - - - END OF THE HEADER!!! - - - END OF THE HEADER!!! - - - END OF THE HEADER!!! - - -*/
 
 
@@ -179,7 +209,7 @@ span.material-symbols-outlined-right-arrow {   /*STYLE THE ARROW ICON HERE!!! - 
 .main {        /*STYLE THE MAIN SECTION */
     padding: 0 100px 0 100px;
     position: relative;
-    top: 135px;
+    top: 170px;
 }
 
 .div-images {   /*A HELPER DIV TO POSITION THE DIV IMAGES*/
@@ -222,7 +252,92 @@ span.material-symbols-outlined-right-arrow {   /*STYLE THE ARROW ICON HERE!!! - 
     margin-bottom: 50px;
 }
 
-.dianese-collection {
-    display: grid;
-    grid-template-columns: repeat(6, 152px);
+.dainese-sale-items #sale-tag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    height: 12px;
+    font-family: oswald;
+    font-size: 10px;
+    background: #fa4c06;
+    color: white;
+}
+
+.sale-banner {
+    border: 1px solid #c0c0c0;
+    width: 182px;
+    height: 364px;
+}
+
+.dainese-sale-item-1 {
+    display: flex;
+    justify-content: center;
+    height: 140px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.dainese-sale-item-1 img {
+    width: 140px;
+    height: 140px;
+}
+
+.product-circle {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.dainese-sale-color-1 {
+    background: black;  
+}
+
+.dainese-sale-color-2 {
+    background: #383838;
+}
+
+.dainese-sale-color-3 {
+    background: #ffffff;
+    border: 1px solid #B7B7B7;
+}
+
+.dainese-sale-color-4 {
+    background: #ffffff;
+    border: 1px solid #808080;
+}
+
+.dainese-sale-color-5 {
+    background: #c0c0c0;
+}
+
+#sales-info {
+    font-family: lato;
+}
+
+#new-sale-price {
+    font-family: oswald;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#previous-sale-price {
+    font-family: oswald;
+    font-size: 16px;
+    color: #c7c7c6;
+}
+
+#discount--cta {
+    font-family: lato;
+    font-size: 12px;
+    color: #05b3f9;
+}
+
+.grade {
+    display: inline-block;
+}
+
+span.material-symbols-outlined-grade {
+    color:#fa4c06;
 }
